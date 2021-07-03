@@ -1,0 +1,42 @@
+.documento{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.boton_rosado{
+    width: 80px;
+    height: 35px;
+    background-color: lightpink;
+}
+
+.rosado{
+    background-color: lightpink; 
+}
+
+.boton_verde{
+    width: 80px;
+    height: 35px;
+    background-color: lightgreen;
+}
+
+.verde{
+    background-color: lightgreen;
+}
+
+.boton_celeste{
+    width: 80px;
+    height: 35px;
+    background-color: lightskyblue;
+}
+
+.celeste{
+    background-color: lightskyblue;
+}
+
+.boton_borrar{
+    width: 80px;
+    height: 35px;
+}

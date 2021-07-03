@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+
+    <script>
+
+        function mayor(numeros) {
+
+            var mayor = -100;
+
+            for (i = 0; i < numeros.length; i++) {
+                numero = numeros[i];
+                if (numero > mayor) {
+                    mayor = numero
+                    document.write("El numero mayor por el momento es: " + mayor + "</br>");
+                }
+                
+            }
+            return mayor;
+        }
+
+        var numeros = [-150, -14, -1, 45, 20, 30, 75, 72, 44, 12, 1,-268, 50, 0, 85, 13, 265, 346, 29, 42, 88, 1948, 8, 26, 4, 6, 12, 2, 45, 1845, 65, 1971, 2008, 1974, -97, 11, 0.5];
+
+        var el_mayor = mayor(numeros);
+
+        document.write("</br>El numero mayor es: " + el_mayor);
+
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

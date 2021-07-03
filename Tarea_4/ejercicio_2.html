@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+
+    <script>
+
+        function contar() {
+
+            var contador = 0;
+
+            while (contador < document.formulario.texto.value.length) {
+
+                contador++;
+
+            }
+
+            alert("Cantidad de caracteres: " + contador);
+        }
+        
+    </script>
+
+    <form name="formulario">
+
+        <textarea name="texto" rows="9" cols="40" placeholder="Escriba un texto "></textarea>
+
+        <input type="button" onclick="contar()" value="Contar">
+
+    </form>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
